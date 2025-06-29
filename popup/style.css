@@ -1,5 +1,51 @@
 html,
 body {
     width: 200px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
+.button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    place-items: center;
+    transition: all 0.3s ease;
+}
+
+.button::before {
+    content: "";
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 10px solid #eee;
+    position: absolute;
+    transition: border-color 0.3s ease;
+}
+
+.bar {
+    height: 30%;
+    width: 10px;
+    background: #eee;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button.on::before {
+    border-color: limegreen;
+}
+
+.button.on .bar {
+    background: limegreen;
+}
