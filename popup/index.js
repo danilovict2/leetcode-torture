@@ -1,11 +1,10 @@
 let powerOn = false;
 
-browser.storage.local.get("powerOn")
+browser.storage.sync.get("powerOn")
     .then(r => {
         powerOn = r.powerOn;
         button.classList.toggle('on', powerOn);
-    })
-    .catch(err => console.log(`Error: ${err}`));
+    }, err => console.log(err))
 
 const button = document.getElementById('power-button');
 
@@ -13,7 +12,7 @@ button.addEventListener('click', () => {
     powerOn = !powerOn;
     button.classList.toggle('on', powerOn);
 
-    browser.storage.local.set({
+    browser.storage.sync.set({
         powerOn: powerOn,
     });
 });
