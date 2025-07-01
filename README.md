@@ -24,8 +24,6 @@ I found [this cool extension](https://github.com/The-CodingSloth/haha-funny-leet
 git clone https://github.com/danilovict2/leetcode-torture.git
 cd leetcode-torture
 ```
-3. ???
-4. Profit
 
 ### Submit a pull request
 
