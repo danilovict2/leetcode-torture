@@ -18,6 +18,14 @@
             "js": [
                 "torture.js"
             ]
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "reset.js"
+            ]
         }
     ],
     "permissions": [
