@@ -8,4 +8,4 @@ browser.storage.sync.get('solvedAt')
                 isProblemSolved: false,
             });
         }
-    }, logError);
+    }, err => console.log(`Error: ${err}`));

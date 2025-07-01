@@ -11,6 +11,15 @@ const listener = (details) => {
                 isProblemSolved: true,
                 solvedAt: Date.now(),
             });
+
+            browser.tabs
+                .query({ active: true, currentWindow: true })
+                .then(tabs => {
+                    browser.tabs.sendMessage(tabs[0].id, {
+                        command: "sucess",
+                    })
+                })
+                .catch(err => console.log(`Error: ${err}`));
         }
 
         filter.write(encoder.encode(str));

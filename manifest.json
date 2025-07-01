@@ -26,12 +26,24 @@
             "js": [
                 "reset.js"
             ]
+        },
+        {
+            "matches": [
+                "*://*.leetcode.com/*"
+            ],
+            "js": [
+                "modal/modal.js"
+            ],
+            "css": [
+                "modal/modal.css"
+            ]
         }
     ],
     "permissions": [
         "storage",
         "webRequest",
         "webRequestBlocking",
+        "activeTab",
         "https://leetcode.com/submissions/detail/*/check/",
         "https://leetcode-api-pied.vercel.app/daily"
     ],
