@@ -2,21 +2,23 @@
 
 Firefox extension that forces you to solve one LeetCode problem before you can do anything in your browser.
 
-<p align="center">
+<p>
   <img src="https://github.com/danilovict2/leetcode-torture/blob/5e769e72cd9658a344335e5bc14585c5bd318b18/icons/nerd-fs.jpg" 
        alt="icon" 
-       width="100%">
+       height="200px"
+       width="200px"
+  >
 </p>
 
 ## Motivation
 
-I found [this cool extension][https://github.com/The-CodingSloth/haha-funny-leetcode-extension] and decided to port it to Firefox because, well, I use Firefox (LibreWolf actually 😊).
+I found [this cool extension](https://github.com/The-CodingSloth/haha-funny-leetcode-extension) and decided to port it to Firefox because, well, I use Firefox (LibreWolf actually 😊).
 
 ## 🤝 Contributing
 
 ### Setting Up
 
-1. Have [Node.js][https://nodejs.org/en/download] on your machine
+1. Have [Node.js](https://nodejs.org/en/download) on your machine
 2. Clone the project:
 ```bash
 git clone https://github.com/danilovict2/go-redis.git
