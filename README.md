@@ -12,7 +12,7 @@ Firefox extension that forces you to solve one LeetCode problem before you can d
 
 ## Motivation
 
-I found [this cool extension](https://github.com/The-CodingSloth/haha-funny-leetcode-extension) and decided to port it to Firefox because, well, I use Firefox (LibreWolf actually 😊).
+I found [this cool Chrome extension](https://github.com/The-CodingSloth/haha-funny-leetcode-extension) and decided to port it to Firefox because, well, I use Firefox (LibreWolf, actually—but close enough.)
 
 ## 🤝 Contributing
 
