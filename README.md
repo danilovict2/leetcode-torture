@@ -2,6 +2,12 @@
 
 Firefox extension that forces you to solve one LeetCode problem before you can do anything in your browser.
 
+<p align="center">
+  <img src="https://github.com/danilovict2/leetcode-torture/blob/5e769e72cd9658a344335e5bc14585c5bd318b18/icons/nerd-fs.jpg" 
+       alt="icon" 
+       width="100%">
+</p>
+
 ## Motivation
 
 I found [this cool extension][https://github.com/The-CodingSloth/haha-funny-leetcode-extension] and decided to port it to Firefox because, well, I use Firefox (LibreWolf actually 😊).
