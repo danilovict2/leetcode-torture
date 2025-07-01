@@ -21,8 +21,8 @@ I found [this cool extension](https://github.com/The-CodingSloth/haha-funny-leet
 1. Have [Node.js](https://nodejs.org/en/download) on your machine
 2. Clone the project:
 ```bash
-git clone https://github.com/danilovict2/go-redis.git
-cd go-redis
+git clone https://github.com/danilovict2/leetcode-torture.git
+cd leetcode-torture
 ```
 3. ???
 4. Profit
