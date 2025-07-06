@@ -1,4 +1,4 @@
-# Leetcode Torture
+# [Leetcode Torture](https://addons.mozilla.org/en-US/firefox/addon/leetcode_torture/)
 
 Firefox extension that forces you to solve one LeetCode problem before you can do anything in your browser.
 
@@ -18,12 +18,15 @@ I found [this cool Chrome extension](https://github.com/The-CodingSloth/haha-fun
 
 ### Setting Up
 
-1. Have [Node.js](https://nodejs.org/en/download) on your machine
-2. Clone the project:
+1. Clone the project:
 ```bash
 git clone https://github.com/danilovict2/leetcode-torture.git
 cd leetcode-torture
 ```
+2. Go to `about:debugging`.
+3. Click “This Firefox”.
+4. Click “Load Temporary Add-on”.
+5. Choose the `manifest.json` file in the repo.
 
 ### Submit a pull request
 
