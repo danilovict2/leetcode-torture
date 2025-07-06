@@ -6,6 +6,7 @@ browser.storage.sync.get('solvedAt')
         if ((now - solvedAt) >= oneDay) {
             browser.storage.sync.set({
                 isProblemSolved: false,
+                problemUrl: undefined,
             });
         }
     }, err => console.log(`Error: ${err}`));
