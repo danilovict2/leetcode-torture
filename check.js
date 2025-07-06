@@ -1,4 +1,9 @@
 const listener = (details) => {
+    // Ignore "Run Code" checks
+    if (details.url.includes("runcode_")) {
+        return {};
+    }
+
     let filter = browser.webRequest.filterResponseData(details.requestId);
     let decoder = new TextDecoder("utf-8");
     let encoder = new TextEncoder();
